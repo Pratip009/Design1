@@ -1,0 +1,14 @@
+@media only screen and (min-width: 768px) and (max-width:992px){ 
+    #Navbar-right-elements{
+        float: right;
+    }
+    #nav-first-item{
+        float: left;
+    }
+    #nav-second-item{
+        text-align: center;
+    }
+    #nav-third-item{
+        float: right;
+    }
+}

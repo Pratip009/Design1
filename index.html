@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Design1</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="../design1/font-awesome-4.7.0/css/font-awesome.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse">
+      <!-- Navbar brand -->
+      <a class="navbar-brand mt-2 mt-lg-0" href="#">
+        <img
+          src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+          height="15"
+          alt="MDB Logo"
+          loading="lazy"
+        />
+      </a>
+    </div>
+    <!-- Collapsible wrapper -->
+
+    <!-- Right elements -->
+    <div class="d-flex align-items-center"  id="Navbar-right-elements">
+      <!-- Icon -->
+      <a class="text-reset me-3" href="#">
+        <i class="fas fa-user-friends"></i>
+      </a>
+
+      <!-- Notifications -->
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                John Smith
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>
+            <li>
+              <i class="fa fa-cogs" style="margin-top: 10px;" ></i>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav nav-fill w-100">
+      <li class="nav-item" id="nav-first-item">
+          <a class="nav-link" href="#"><i class="	fa fa-bar-chart"></i><span>PM System</span></a>
+      </li>
+      <li class="nav-item" id="nav-second-item">
+          <a class="nav-link" href="#"><i class="fa fa-bell"></i><span>RM 360</span></a>
+      </li>
+      <li class="nav-item" id="nav-third-item">
+          <a class="nav-link" href="#"><i class="fa fa-pie-chart"></i><span>Customer 360</span></a>
+      </li>
+  </ul>
+  </div>
+</nav>
+<!-- Navbar -->
+<!--Main-->
+
+<div class="container">
+  <div class="row g-2">
+    <div class="col-md-9 ">
+      <div class="row  g-2">
+        <div class="col-md-8">
+          <div class="card mt-1" id="Branch-Revenue">
+            <div class="card-body" style="margin: 0; padding: 7px;">
+              <div class="row">
+                <div class="col-md-10 col-sm-6">
+                  <h6 class="text-start">Branch Revenue</h6>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                  <i class="fa fa-expand" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="row" style="background-color: #F7F7F7; border-top: 1px solid #d0d0d0; border-bottom: 1px solid #d0d0d0;">
+                <div class="col-md-6 col-sm-6">
+                    <!-- Example split primary button -->
+                    <button type="button" id="rev-btn" style="margin-bottom: 5px;" class="btn btn-transparent" data-toggle="modal" data-target="#myModal"><p style="font-size: medium;
+                      float: left;
+                      padding-right: 3px;">Revenue Details</p>
+                      <span data-bind=""></span>
+                      <span data-bind="" class="fas fa-caret-up" id="top"></span><span class="br"></span>
+                      <span data-bind="" class="fas fa-caret-down" id="bottom"></span>
+                    </button>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <ul class="list-group list-group-horizontal" id="revenue-horizontal" >
+                      <li class="list-group-item-active p-2" id="Revenue-details-breadcrumb-active"><span>Week</span></li> <div class="vr"></div>
+                      <li class="list-group-item-transparent p-2" aria-current="page"><span>Month</span></li> <div class="vr"></div>
+                      <li class="list-group-item-transparent p-2" aria-current="page"><span>Quarter</span></li> <div class="vr"></div>
+                      <li class="list-group-item-transparent p-2" aria-current="page"><span>Year</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="well inline-headers">
+                      <span class="total-revenue">Total Revenue</span>
+                      <span class="value" >21.4lakhs</span>
+                  </div>
+              </div>
+              <div class="progress" id="revenue-progress-bar">
+                <!---progress bar-->
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="row mt-1 g-2">
+            <div class="col-md-6">
+              <div class="card" id="SLA-Fullfillment">
+                <div class="card-body" id="SLA-body">
+                  <div class="row">
+                    <div class="col-md-10 col-sm-6 mt-2">
+                      <h6 class="text-start">SLA Fullfillment</h6>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                      <div class="text-center">
+                        <i class="fa fa-expand" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" style="background-color: #F7F7F7; border-top: 2px solid #d0d0d0; border-bottom: 1px solid #d0d0d0;" >
+                    <div class="col-md-3"></div>
+                    <div class="col-md-4" id="SLA1" style="padding-left: 0; padding-right: 0;">
+                        <div class="d-inline-block">
+                          <div class="rectangle1"></div>
+                      </div>
+                      <div class="d-inline-block">
+                        <div class="text-center">
+                          <span class="good">Good</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3" id="SLA2" style="padding-left: 0; padding-right: 0;">
+                        <div class="d-inline-block">
+                            <div class="rectangle2"></div>
+                        </div>
+                        <div class="d-inline-block">
+                          <div class="text-center">
+                            <span class="Fine">Fine</span>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2" id="SLA3" style="padding-left: 0; padding-right: 0;">
+                        <div class="d-inline-block">
+                            <div class="rectangle3"></div>
+                        </div>
+                        <div class="d-inline-block">
+                          <div class="text-center">
+                            <span class="Bad">Bad</span>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                  <ul class="list-group list-group-flush" id="SLA-fullfillment-lists" >
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-md-10">
+                          <span class="inline-text">Cheque Clearence</span>
+                        </div>
+                        <div class="col-md-2">                       
+                            <div class="rectangle1"></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-md-10">
+                          <span class="inline-text">Forex</span>
+                        </div>
+                        <div class="col-md-2"> 
+                                                
+                            <div class="rectangle1"></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-md-10">
+                          <span class="inline-text">Credit Card Dispatch</span>
+                        </div>
+                        <div class="col-md-2"> 
+                                                
+                            <div class="rectangle2"></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-md-10">
+                          <span class="inline-text">DD Creation</span>
+                        </div>
+                        <div class="col-md-2"> 
+                                                
+                            <div class="rectangle2"></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-md-10">
+                          <span class="inline-text">Profile Info Change</span>
+                        </div>
+                        <div class="col-md-2"> 
+                                                
+                            <div class="rectangle3"></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-md-10">
+                          <span class="inline-text">Fund Transfer</span>
+                        </div>
+                        <div class="col-md-2"> 
+                                                
+                            <div class="rectangle3"></div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-md-12">
+                  <div class="card" id="Lead-analysis">
+                    <div class="card-body" style="margin: 0; padding: 12px;">
+                      <div class="row">
+                        <div class="col-md-10 col-sm-6 mt-2">
+                          <h6 class="text-start">Lead Analysis</h6>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                          <div class="text-center">
+                            <i class="fa fa-expand" aria-hidden="true"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="btn-group" id="Lead-btn-group">
+                        <button
+                          class="btn btn-white dropdown-toggle"
+                          type="button"
+                          data-mdb-toggle="dropdown"
+                          aria-expanded="false"
+                          style="padding: 0;"
+                        >
+                        <span id="Lead-analysis-btn-text">Status</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><hr class="dropdown-divider" /></li>
+                          <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                      </div>
+                      <ul class="list-group list-group-horizontal justify-content-center" id="Lead-analysis-horizontal-list" style="line-height: 5px; margin-top: 5px; border: 1px solid rgb(230, 230, 230);list-style-type: none; border-radius: 0px;" >
+                          <li class="list-group-item-active p-2" id="Revenue-details-breadcrumb-active2"><span style="color: white; ">Week</span></li>
+                          <li class="list-group-item-transparent p-2" aria-current="page"><span>Month</span></li> <div class="vr"></div>
+                      <li class="list-group-item-transparent p-2" aria-current="page"><span>Quarter</span></li>
+                      </ul>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <canvas id="chartContainer2" style="width: 80%; height:  188px;margin-left: -5px;"></canvas>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card" id="Product-sales-analysis">
+                <div class="card-body" style="margin: 0; padding: 12px;">
+                  <div class="row">
+                    <div class="col-md-10 col-sm-6 mt-2">
+                      <h6 class="text-start">Product Sales Analysis</h6>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                      <div class="text-end">
+                        <i class="fa fa-expand" aria-hidden="true" id="expand"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" style="border-top: 1px solid rgb(163, 163, 163);"></div>
+                  <div class="btn-group" id="cross-selling-btn">
+                    <button
+                      class="btn btn-white dropdown-toggle"
+                      type="button"
+                      data-mdb-toggle="dropdown"
+                      aria-expanded="false"
+                      style="padding: 0;"
+                    >
+                    <span id="cross-selling-btn-text">Cross Selling</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                      <ul class="list-group list-group-horizontal" id="product-selling-horizontal-list" style="line-height: 5px; margin-top: 10px; border: 1px solid rgb(230, 230, 230);list-style-type: none; border-radius: 0px;" >
+                        <li class="list-group-item-active p-2" id="Revenue-details-breadcrumb-active3"><span style="font-size: small;">Week</span></li>
+                        <li class="list-group-item-transparent p-2" aria-current="page"><span>Month</span></li> <div class="vr"></div>
+                        <li class="list-group-item-transparent p-2" aria-current="page"><span>Quarter</span></li>
+                    </ul>
+                    <ul class="list-group list-group-flush" id="accounts" style="margin-top: 25px;">
+                      <li class="list-group-item "><span>Accounts & Deposits</span>
+                          <div class="progress" id="p-80" >
+                              <div class="progress-bar bg-info" role="progressbar" style="width: 80%"
+                                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-value1">80%</div>
+                          </div><br>
+                      </li>
+                      <li class="list-group-item "><span>Accounts & Deposits</span>
+                        <div class="progress" id="p-80" >
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 80%"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-value1">80%</div>
+                                
+                        </div><br>
+                    </li>
+                      <li class="list-group-item "><span>Accounts & Deposits</span>
+                          <div class="progress" id="p-80" >
+                              <div class="progress-bar bg-info" role="progressbar" style="width: 80%"
+                                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-value1">80%</div>
+                                  
+                          </div><br>
+                      </li>
+                      <li class="list-group-item " ><span>Accounts & Deposits</span>
+                          <div class="progress" id="p-80" >
+                              <div class="progress-bar bg-info" role="progressbar" style="width: 80%"
+                                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-value1">80%</div>
+                                
+                          </div><br>
+                      </li>
+                      <li class="list-group-item "><span>Accounts & Deposits</span>
+                        <div class="progress" id="p-80" >
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 80%"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-value1">80%</div>
+                        </div><br>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mt-1" id="Team-performence">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-10 col-sm-6 mt-1 ">
+                  <h6 class="text-start">Team Performence</h6>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <i class="fa fa-expand" id="team-icon" aria-hidden="true" style="margin-left: 10px;"></i>
+                </div>
+              </div>
+              <div class="row" style="border-top: 1px solid rgb(163, 163, 163);"></div>
+              <ul class="list-group list-group-flush" id="team-performence-list" >
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                      <img src="img/profile.jpg" alt="..." class="img-thumbnail" style="border-radius: 0; margin-top: 5px;">
+                    </div>
+                    <div class="col-md-9 col-sm-8">
+                      <span>Rajan Sharma</span>
+                      <div class="progress mt-1" id="p-70">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 70%"
+                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div> 
+                            <div class="progress-value2">70%</div>  
+                    </div><br>
+                    </div>
+                </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                      <img src="img/profile.jpg" alt="..." class="img-thumbnail" style="border-radius: 0; margin-top: 5px;">
+                    </div>
+                    <div class="col-md-9 col-sm-8">
+                      <span>Rajan Sharma</span>
+                          <div class="progress mt-1" id="p-70">
+                              <div class="progress-bar bg-info" role="progressbar" style="width: 70%"
+                                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-value2">70%</div>     
+                          </div><br>
+                    </div>
+                </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                      <img src="img/profile.jpg" alt="..." class="img-thumbnail" style="border-radius: 0; margin-top: 5px;">
+                    </div>
+                    <div class="col-md-9 col-sm-8">
+                      <span>Rajan Sharma</span>
+                          <div class="progress mt-1" id="p-40">
+                              <div class="progress-bar bg-info" role="progressbar" style="width: 40%"
+                                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-value3">40%</div>     
+                          </div><br>
+                    </div>
+                </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                      <img src="img/profile.jpg" alt="..." class="img-thumbnail" style="border-radius: 0; margin-top: 5px;">
+                    </div>
+                    <div class="col-md-9 col-sm-8">
+                      <span>Rajan Sharma</span>
+                          <div class="progress mt-1" id="p-90">
+                              <div class="progress-bar bg-info" role="progressbar" style="width: 90%"
+                                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-value4">90%</div>   
+                          </div><br>
+                    </div>
+                </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                      <img src="img/profile.jpg" alt="..." class="img-thumbnail" style="border-radius: 0; margin-top: 5px;">
+                    </div>
+                    <div class="col-md-9 col-sm-8">
+                      <span>Rajan Sharma</span>
+                          <div class="progress mt-1" id="p-40">
+                              <div class="progress-bar bg-info" role="progressbar" style="width: 40%"
+                                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div> 
+                                  <div class="progress-value3">40%</div>  
+                          </div><br>
+                    </div>
+                </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                      <img src="img/profile.jpg" alt="..." class="img-thumbnail" style="border-radius: 0; margin-top: 5px;">
+                    </div>
+                    <div class="col-md-9 col-sm-8">
+                      <span>Rajan Sharma</span>
+                          <div class="progress mt-1" id="p-90">
+                              <div class="progress-bar bg-info" role="progressbar" style="width: 90%"
+                                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-value4">90%</div>   
+                          </div><br>
+                    </div>
+                </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                      <img src="img/profile.jpg" alt="..." class="img-thumbnail" style="border-radius: 0; margin-top: 5px;">
+                    </div>
+                    <div class="col-md-9 col-sm-8">
+                      <span>Rajan Sharma</span>
+                          <div class="progress mt-1" id="p-70">
+                              <div class="progress-bar bg-info" role="progressbar" style="width: 70%"
+                                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-value2">70%</div>   
+                          </div><br>
+                    </div>
+                </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                      <img src="img/profile.jpg" alt="..." class="img-thumbnail" style="border-radius: 0; margin-top: 5px;">
+                    </div>
+                    <div class="col-md-9 col-sm-8">
+                      <span>Rajan Sharma</span>
+                          <div class="progress mt-1" id="p-90">
+                              <div class="progress-bar bg-info" role="progressbar" style="width: 90%"
+                                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-value4">90%</div>   
+                          </div><br>
+                    </div>
+                </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                      <img src="img/profile.jpg" alt="..." class="img-thumbnail" style="border-radius: 0; margin-top: 5px;">
+                    </div>
+                    <div class="col-md-9 col-sm-8">
+                      <span>Rajan Sharma</span>
+                          <div class="progress mt-1" id="p-90">
+                              <div class="progress-bar bg-info" role="progressbar" style="width: 90%"
+                                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-value4">90%</div>  
+                          </div><br>
+                    </div>
+                </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-2 g-2">
+        <div class="col-md-4">
+            <div class="card" id="Complaint-analysis">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-10 col-sm-6 mt-2">
+                    <h6 class="card-title">Complaint Analysis</h6>
+                  </div>
+                  <div class="col-md-2 col-sm-6">
+                    <div class="text-center">
+                      <i class="fa fa-expand" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-1" style="border-top: 1px solid rgb(163, 163, 163) ;"></div>
+                <div class="btn-group mt-1" id="Complaint-analysis-btn">
+                  <button
+                    class="btn btn-white dropdown-toggle"
+                    type="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false"
+                    style="padding: 0;"
+                  >
+                  <span id="Complaint-analysis-btn-text">Generation Mode</span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+                </div>
+                <ul class="list-group list-group-horizontal justify-content-center" id="Generation-Lead-horizontal-list" style="line-height: 5px; margin-top: 5px; border: 1px solid rgb(230, 230, 230);  width: 100%;list-style-type: none; border-radius: 0px;" >
+                  <li class="list-group-item-active p-2" id="Revenue-details-breadcrumb-active4"><span style="font-size: small;">Week</span></li>
+                  <li class="list-group-item-transparent p-2" aria-current="page"><span>Month</span></li> <div class="vr"></div>
+                      <li class="list-group-item-transparent p-2" aria-current="page"><span>Quarter</span></li>
+              </ul>
+                <div class="row">
+                  <div class="col-md-12">
+                    <canvas id="chartContainer3" style="height: 185px; width: 100%; margin-left: -25px;"></canvas>
+                  </div>
+              </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+          <div class="card" id="Average-Lead-Conversion">
+            <div class="card-body">
+              <div class="row mt-1">
+                <div class="col-md-10 col-sm-6 mt-2">
+                  <h6 class="text-start">Average Lead Conversion</h6>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                  <div class="text-end">
+                    <i class="fa fa-expand" id="avg-icon" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12" style="background-color: rgb(247, 247, 247); border-top: 1px solid rgb(185, 185, 185); border-bottom: 1px solid rgb(185, 185, 185);">
+                  <ul class="list-group list-group-horizontal" id="Average-Lead-Conversion-horizontal-list" style="line-height: 5px; float: right; margin-top: 13px; margin-bottom: 13px;  list-style-type: none; "  >
+                    <li class="list-group-item-active p-2" id="Revenue-details-breadcrumb-active5"><span style="font-size: small;">Week</span></li>
+                    <li class="list-group-item-transparent p-2" aria-current="page"><span style="font-size: small; font-weight: 500; color: rgb(99, 99, 99);">Month</span></li> <div class="vr"></div>
+                    <li class="list-group-item-transparent p-2" aria-current="page"><span style="font-size: small; font-weight: 500; color: rgb(99, 99, 99);">Quarter</span></li> <div class="vr"></div>
+                    <li class="list-group-item-transparent p-2" aria-current="page"><span style="font-size: small; font-weight: 500; color: rgb(99, 99, 99);">Year</span></li>
+                </ul>
+                </div>
+              </div>
+              <div class="row" style="padding: 15px; background-color: rgb(243, 243, 243); border-left: 2px solid white;border-right: 2px solid white; border-bottom: 2px solid white;">
+                <div class="col-sm d-flex">
+                    <div class="card card-body flex-fill" id="card1">
+                      <div class="row">
+                        <div class="col">
+                          <div class="text-center">
+                            <i class="fas fa-award fa-3x"></i><br>
+                            <span>Time to<br> market</span><br>
+                            <p class="inline-text">3.2 Months</p>
+                          </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm d-flex">
+                    <div class="card card-body flex-fill" id="card2">
+                      <div class="row">
+                        <div class="col">
+                          <div class="text-center">
+                            <i class="fas fa-infinity fa-3x"></i><br>
+                            <span>Conversion Rate</span><br>
+                            <p>56%</p>
+                          </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm d-flex">
+                    <div class="card card-body flex-fill" id="card3">
+                      <div class="row">
+                        <div class="col">
+                          <div class="text-center">
+                            <i class="fa fa-chain fa-3x"></i><br>
+                            <span>No. of Engagement</span><br>
+                            <p>07</p>
+                          </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 ">
+      <div class="card mt-1" id="Scheduler">
+        <div class="card-body">
+          <div class="row mt-2">
+            <div class="col-md-6 col-sm-6 mt-2">
+              <h6 class="text-start" style="margin-left: 10px;">Scheduler</h6>
+            </div>
+              <div class="col-md-3 col-sm-6">
+                  <div class="text-end">
+                    <i class="fas fa-plus" id="left-icon"></i>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="text-center">
+                  <i class="fa fa-expand" id="right-icon"  aria-hidden="true"></i>
+                </div>
+              </div>
+          </div>
+            <div class="col-md-12" id="Scheduler-time">
+              <div class="text-center" style="margin-top: 3px;">
+                <i1 class="fas fa-angle-left"  style="margin-right: 10px;"></i1><span >Today,26 Dec</span><i2 class="fas fa-angle-right"style="margin-left: 10px;"></i2>
+              </div>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-md-10" style="margin: 0; padding: 0;">
+                    <div class="row g-0">
+                      <div class="col-md-8">
+                        <span class="time">10.00 to 11.00</span>
+                      </div>
+                      <div class="col-md-4">
+                        <span class="tag">TG272909</span>
+                      </div>
+                      <hr style="margin: 0;padding: 0;">
+                      <span class="name">Karan Sharma</span>
+                      <span class="sell">Cross Sell(FD)</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-4" id="list1-iconbackground" style="margin: 0; padding: 0;">
+                    <i class="fas fa-phone" id="list1-icon1"></i>
+                    <i class="fas fa-file-alt" id="list1-icon2"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-md-10" style="margin: 0; padding: 0;">
+                    <div class="row g-0">
+                      <div class="col-md-8">
+                        <span class="time">10.00 to 11.00</span>
+                      </div>
+                      <div class="col-md-4">
+                        <span class="tag">TG272909</span>
+                      </div>
+                      <hr style="margin: 0;padding: 0;">
+                      <span class="name">Karan Sharma</span>
+                      <span class="sell">Cross Sell(FD)</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-4" id="list2-iconbackground" style="margin: 0; padding: 0;">
+                    <i class="fas fa-phone" id="list2-icon1"></i>
+                    <i class="fas fa-file-alt" id="list2-icon2"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-md-10" style="margin: 0; padding: 0;">
+                    <div class="row g-0">
+                      <div class="col-md-8">
+                        <span class="time">10.00 to 11.00</span>
+                      </div>
+                      <div class="col-md-4">
+                        <span class="tag">TG272909</span>
+                      </div>
+                      <hr style="margin: 0;padding: 0;">
+                      <span class="name">Karan Sharma</span>
+                      <span class="sell">Cross Sell(FD)</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-4" id="list3-iconbackground" style="margin: 0; padding: 0;">
+                    <i class="fas fa-phone" id="list3-icon1"></i>
+                    <i class="fas fa-file-alt" id="list3-icon2"></i>
+                  </div>
+                </div>
+              </li>
+            </ul>
+        </div>
+          </div>
+          <div class="card mt-3" id="Acc-Monitoring-Triggers">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-10 col-sm-6 mt-2">
+                  <h6 class="text-start">Acc Monitoring Triggers</h6>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                  <div class="text-center">
+                    <i class="fa fa-expand" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="row" style="border-top: 1px solid rgb(163, 163, 163) ;"></div>
+                <ul class="nav nav-tabs" style="margin-top: 5px;">
+                  <li class="active-nav-item">
+                    <a class="nav-link" id="active-tab"><span>KYC</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  id="inactive-tab"><span>AML</span></a>
+                  </li>
+                  
+                </ul>
+                <ul class="list-group list-group-flush" id="ACC-monitoring-list">
+                  <li class="list-group-item">
+                    <div class="row" style=" margin-bottom: -18px; margin-top: 5px;">
+                      <div class="col-md-8 mt-1">
+                        <span class="docx">Incomplete Document</span><br>
+                        <span class="customer-name">Rajesh K Subraminiam</span>
+                      </div>
+                      <div class="col-md-4 mt-1">
+                        <span class="date">26 Dec</span>
+                        <p class="times">10.30</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="row" style="margin-top: -6px; margin-bottom: -12px;">
+                      <div class="col-md-8 mt-1">
+                        <span class="docx">Incomplete Document</span><br>
+                        <span class="customer-name">Rajesh K Subraminiam</span>
+                      </div>
+                      <div class="col-md-4 mt-1">
+                        <span class="date">26 Dec</span>
+                        <p class="times">10.30</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="row" style="margin-top: -6px; margin-bottom: -12px;">
+                      <div class="col-md-8 mt-1">
+                        <span class="docx">Incomplete Document</span><br>
+                        <span class="customer-name">Rajesh K Subraminiam</span>
+                      </div>
+                      <div class="col-md-4 mt-1">
+                        <span class="date">26 Dec</span>
+                        <p class="times">10.30</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="row" style="margin-top: -6px; margin-bottom: -12px;">
+                      <div class="col-md-8 mt-1">
+                        <span class="docx">Incomplete Document</span><br>
+                        <span class="customer-name">Rajesh K Subraminiam</span>
+                      </div>
+                      <div class="col-md-4 mt-1">
+                        <span class="date">26 Dec</span>
+                        <p class="times">10.30</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+            </div>
+          </div>
+          <div class="card mt-3" id="New-Leads">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-10 col-sm-6 mt-2">
+                  <h6 class="text-start">New Leads</h6>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                  <div class="text-center">
+                    <i class="fa fa-expand" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <hr>
+              </div>
+              <ul class="list-group list-group-flush mt-1" id="News-lead-list">
+                <li class="list-group-item">
+                  <span class="new-leads-name">Rakesh Malhotra</span>
+                  <div class="row-divider" style="border-top: 1px solid rgb(163, 163, 163) ;margin-left: 1px;"></div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <span class="lead-tag">DGH98213</span>
+                      <h6 class="home-lone">Home Lone</h6>
+                    </div>
+                    <div class="col-md-6">
+                      <span class="lead-time">26 Dec,8:00</span>
+                      <p class="criticality">criticality-Low</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <span class="new-leads-name">Rakesh Malhotra</span>
+                  <div class="row-divider" style="border-top: 1px solid rgb(163, 163, 163) ; margin-left: 1px;"></div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <span class="lead-tag">DGH98213</span>
+                      <h6 class="home-lone">Home Lone</h6>
+                    </div>
+                    <div class="col-md-6">
+                      <span class="lead-time">26 Dec,8:00</span>
+                      <p class="criticality">criticality-Low</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <span class="new-leads-name">Rakesh Malhotra</span>
+                  <div class="row-divider" style="border-top: 1px solid rgb(163, 163, 163) ; margin-left: 1px;"></div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <span class="lead-tag">DGH98213</span>
+                      <h6 class="home-lone">Home Lone</h6>
+                    </div>
+                    <div class="col-md-6">
+                      <span class="lead-time">26 Dec,8:00</span>
+                      <p class="criticality">criticality-Low</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+    <!-- MDB -->
+    <script src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/doughnut1.js"></script>
+    <script src="js/doughnut.js"></script>
+  </body>
+</html>

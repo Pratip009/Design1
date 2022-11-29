@@ -1,0 +1,2491 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.container{
+    background-color: rgb(249, 247, 247);
+}
+.rectangle1{
+    width: 15px;
+    height: 7px;
+    background-color: #A9D86E;
+    margin-top: 5px;
+}
+.rectangle2{
+    width: 15px;
+    height: 7px;
+    background-color: #5BC78D;
+    margin-top: 5px;
+    
+}
+.rectangle3{
+    width: 15px;
+    height: 7px;
+    background-color: #FE6C5F;
+    margin-top: 5px;
+}
+#rev-btn{
+    width: 200px;
+    height: 40px;
+    margin-top: 5px;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid #d0d0d0;
+}
+#rev-btn p{
+ margin-top: 6px;
+ margin-left: 15px;
+ text-transform: capitalize;
+ color: #9198a5;
+}
+
+#rev-btn span{
+    color: #9198a5;
+}
+#top{
+    margin-right: -40px;
+}
+#bottom{
+    margin-right: -40px;
+}
+.total-revenue{
+    font-size: x-large;
+    font-weight: 400;
+    color: rgb(165, 165, 165);
+}
+.value{
+    font-size: 30px;
+}
+#btn-text{
+    text-transform: capitalize;
+    font-size: medium;
+}
+#canvas-holder {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    }
+.navbar-brand{
+    margin-left: 100px;
+    }
+#Navbar-right-elements{
+    margin-right: 100px;
+    }
+#nav-first-item{
+    margin-left: 100px;
+}
+#nav-third-item{
+    margin-right: 100px;
+}
+#nav-first-item i{
+    margin-right: 20px;
+}
+#nav-second-item i{
+    margin-right: 20px;
+}
+#nav-third-item i{
+    margin-right: 20px;
+}
+#Branch-Revenue{
+    border-radius: 0px;
+    padding:10px 5px 10px 5px;
+}
+.card-title{
+    margin-left: 20px;
+}
+#Branch-Revenue i{
+    float: right;
+}
+
+#Revenue-details-breadcrumb-active{
+    background-color: orange;
+    padding: 0 5px 0 5px;
+    color: white;
+    font-weight: 500;
+    font-size: small;
+}
+.list-group-item-transparent span{
+    font-size: small; 
+    font-weight: 500; 
+    color: rgb(99, 99, 99);
+}
+#revenue-horizontal{
+    line-height: 5px; 
+    float: right; 
+    margin-top: 13px;  
+    list-style-type: none;
+}
+#Revenue-details-breadcrumb-active2{
+    background-color: #FBB228;
+    padding: 0 5px 0 5px;
+    color: white;
+    font-weight: 500;
+    font-size: small;
+}
+#Revenue-details-breadcrumb-active3{
+    background-color: #FBB228;
+    padding: 0 5px 0 5px;
+    color: white;
+    font-weight: 500;
+    font-size: small;
+}
+#Revenue-details-breadcrumb-active4{
+    background-color: #FBB228;
+    padding: 0 5px 0 5px;
+    color: white;
+    font-weight: 500;
+    font-size: small;
+}
+#Revenue-details-breadcrumb-active5{
+    background-color: #FBB228;
+    padding: 0 5px 0 5px;
+    color: white;
+    font-weight: 500;
+}
+#revenue-progress-bar{
+    height: 35px; 
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+.br {
+    display: block;
+    margin-bottom: 0px;
+}
+#revenue-btn{
+    margin-top: 2px;
+    margin-bottom: 2px; 
+    border: 2px solid rgb(223, 223, 223); 
+    box-shadow: none;
+}
+#revenue-btn{
+    border-radius: 0px;
+}
+.btn btn-white dropdown-toggle dropdown-toggle-split{
+    border-radius: 0px;
+}
+#SLA-Fullfillment{
+    border-radius: 0px;
+}
+#SLA-Fullfillment1 p{
+    font-size: 8px; 
+    color: rgb(141, 207, 42); 
+    font-weight: 600;
+    margin-top: 5px;
+}
+#SLA-Fullfillment2 p{
+    font-size: 8px;
+    color: rgb(6, 226, 35);
+    font-weight: 600;
+    margin-top: 5px;
+}
+#SLA-Fullfillment3 p{
+    font-size: 8px; 
+    color: red; 
+    font-weight: 600;
+    margin-top: 5px; 
+}
+#SLA-fullfillment-lists li{
+    line-height: 16px;
+    font-size: 12px; 
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+}
+#Lead-analysis{
+    border-radius: 0px;
+}
+#Lead-analysis-btn-text{
+    text-transform: capitalize;
+    font-size: medium;
+}
+#Lead-btn-group{
+    width: 100%;
+    border: 1px solid rgb(230, 230, 230); 
+    box-shadow: none;
+    border-radius: 0px;
+}
+#Lead-analysis-breadcrumb-active{
+    background-color: #FBB228;
+    padding: 0 5px 0 5px;
+    color: white;
+    font-weight: 500;
+}
+#chartContainer2{
+    height: 185px;
+    width: 100%;
+}
+#Product-sales-analysis{
+    border-radius: 0px;
+}
+#cross-selling-btn{
+    width: 100%;
+    border: 1px solid rgb(230, 230, 230); 
+    box-shadow: none;
+    border-radius: 0px;
+    height: 40px;
+    margin-top: 17px;
+}
+#cross-selling-btn-text{
+    text-transform: capitalize;
+    font-size: medium;
+}
+#cross-selling-btn span{
+    margin-left: -50px;
+    color: #a3aab4;
+    font-weight: 500;
+}
+#cross-selling-btn .dropdown-toggle::after {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    color:#a3aab4 ;
+}
+
+
+#Lead-btn-group{
+    width: 100%;
+    border: 1px solid rgb(230, 230, 230); 
+    box-shadow: none;
+    border-radius: 0px;
+    height: 40px;
+    margin-top: 6px;
+}
+#Lead-btn-group-text{
+    text-transform: capitalize;
+    font-size: medium;
+}
+#Lead-btn-group span{
+    color: #a3aab4;
+    font-weight: 500;
+}
+#Lead-btn-group .dropdown-toggle::after {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    color:#a3aab4 ;
+}
+#Product-sales-breadcrumb-active{
+    background-color: orange;
+    padding: 0 5px 0 5px;
+    color: white;
+    font-weight: 500;
+}
+#accounts{
+    line-height: 21px;
+    padding: 5px;
+}
+#accounts li{
+    background-color: #F7F7F7;
+    border: 1px solid rgb(249, 249, 249);
+    margin-bottom: 5px;
+}
+#accounts span{
+    font-size: 14px;
+    color: rgb(104, 104, 104);
+}
+#Team-performence{
+    border-radius: 0px;
+}
+#team-performence-list{
+    line-height: 32px; 
+    margin-top: 13px;
+}
+#team-performence-list i{
+    color: #bbb; 
+    float: left; 
+    margin-top: 10px;
+    border: 1px solid rgb(232, 232, 232);
+    padding: 3px;
+    font-size: 40px;
+}
+#team-performence-list span{
+    color: rgb(107, 107, 107); 
+    font-size: 15px;
+}
+#Complaint-analysis{
+    border-radius: 0px;
+}
+#Complaint-analysis-btn{
+    width: 100%;
+    border: 1px solid rgb(230, 230, 230); 
+    box-shadow: none;
+    border-radius: 0px;
+    height: 40px;
+}
+#Complaint-analysis-btn-text{
+    text-transform: capitalize;
+    font-size: medium;
+}
+#Complaint-analysis-btn span{
+    margin-left: -10px;
+    color: #a3aab4;
+    font-weight: 500;
+}
+#Complaint-analysis-btn .dropdown-toggle::after {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    color:#a3aab4 ;
+}
+#Complaint-analysis-breadcrumb-active{
+    background-color: orange;
+    padding: 0 5px 0 5px;
+    color: white;
+    font-weight: 500;
+}
+#Average-Lead-Conversion{
+    border-radius: 0px;
+}
+#Average-Lead-Conversion-bredcrumb{
+    margin-right: 10px;
+}
+#Average-Lead-Conversion-bredcrumb-active{
+    background-color: orange; 
+    padding: 0 5px 0 5px; 
+    color: white;
+    font-weight: 500;
+}
+#card1{
+    background-color: #7AD3FD; 
+    border-radius: 0px;
+    height: 180px;
+}
+#card1 i{
+    color: white;
+}
+#card1 span{
+    font-weight: 500; 
+    color: rgb(88, 88, 88); 
+    font-size: large;
+}
+#card1 p{
+    font-weight: 600; 
+    font-size: large;
+    color: black;
+}
+#card2{
+    background-color: #F1C63B;
+    border-radius: 0px;
+    height: 180px;
+}
+#card2 i{
+    color: white;
+}
+#card2 span{
+    font-weight: 500; 
+    color: rgb(88, 88, 88); 
+    font-size: large;
+}
+#card2 p{
+    font-weight: 600; 
+    font-size: large;
+    color: black;
+}
+#card3{
+    background-color: #5BC78D;
+    border-radius: 0px;
+    height: 180px;
+}
+#card3 span{
+    font-weight: 500; 
+    color: rgb(88, 88, 88); 
+    font-size: large;
+}
+#card3 i{
+    color: white;
+}
+#card3 p{
+    font-weight: 600; 
+    font-size: large;
+    color: black;
+}
+#Scheduler{
+    border-radius: 0px;
+}
+#Scheduler-time{
+    background-color: #F7F7F7; 
+    border-top: 1px solid rgb(185, 185, 185);
+    border-bottom: 1px solid rgb(185, 185, 185);
+    height: 40px;
+}
+#Scheduler-time i{
+    font-size: 20px;
+    color: #7D838B;
+}
+#Scheduler-time span{
+    font-size: 20px;
+    color: #7D838B;
+}
+.time{
+    font-size: 15px; 
+    color: #22BEEF; 
+    font-weight: 600; 
+}
+.tag{
+    font-size: 13px; 
+    color: rgb(202, 202, 202);
+}
+.name{
+    font-size: 18px; 
+    font-weight: 500; 
+    color: #7C848A;
+}
+.sell{
+    font-size: 13px; 
+    color: #C6C6C6;
+}
+#list1-icon1{
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+    margin-top: 10px;
+}
+#list1-icon2{
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+    margin-top: 20px;
+}
+#list1-iconbackground{
+    background-color: #22BEEF;
+}
+
+#list2-icon1{
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+    margin-top: 10px;
+}
+#list2-icon2{
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+    margin-top: 20px;
+}
+#list2-iconbackground{
+    background-color: #33cdff;
+}
+#list3-icon1{
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+    margin-top: 10px;
+}
+#list3-icon2{
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+    margin-top: 20px;
+}
+#list3-iconbackground{
+    background-color: #33cdff;
+}
+
+#Acc-Monitoring-Triggers{
+    border-radius: 0px;
+}
+
+.docx{
+    font-size: 12px;
+    color: rgb(137, 137, 137);
+}
+.customer-name{
+    font-size: 12px; 
+    font-weight: 500;
+}
+.times{
+    font-size: 12px;
+    font-weight: 500; 
+    color: #33cdff;
+    margin-top: 4px;
+    float: right;
+}
+#ACC-monitoring-list span{
+    font-weight: 500;
+}
+#New-Leads{
+    border-radius: 0px;
+}
+#News-lead-list{
+    padding: 0px;
+    margin-top: 5px;
+}
+#News-lead-list li{
+    border: 1px solid rgb(155, 155, 155); 
+    margin-bottom: 15px;
+}
+
+.new-leads-name{
+    font-weight: 600; 
+    color: #FBBD49; 
+    font-size: 20px;
+}
+.lead-tag{
+    font-weight: 600; 
+    font-size: 16px;
+    color: rgb(101, 101, 101);
+}
+.lead-time{
+    color: #33cdff; 
+    font-weight: 500; 
+    font-size: 12px;
+    float: right;
+}
+.criticality{
+    color: rgb(131, 131, 131); 
+    font-size: 12px;
+    margin-top: 5px;
+    float: right;
+    font-weight: 500;
+}
+.home-lone{
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgb(101, 101, 101);
+}
+#SLA-body{
+    margin: 0;
+    padding: 12px;
+}
+.good{
+    font-size: 10px; 
+    font-weight: 500; 
+    color: #a9d76e;
+}
+.Fine{
+    font-size: 10px; 
+    font-weight: 500;
+    color: #5bc78d;
+}
+.Bad{
+    font-size: 10px; 
+    font-weight: 500; 
+    color: #ff6d60;
+}
+#Revenue-details-breadcrumb-active2 span{
+    font-size: small; 
+    font-weight: 500; 
+    color: rgb(99, 99, 99);
+}
+.btn btn-white dropdown-toggle dropdown-toggle-split{
+    font-size: medium;
+}
+.list-group-item{
+    margin-left: 0;
+    margin-right: 0;
+}
+.date{
+    float: right;
+    color: #ACB0B5;
+}
+.progress-bar{
+    margin: 0;
+    padding: 0;
+    background-color: #22BEEF;
+}
+.progress .progress-value1{
+    font-size: 10px;
+    font-weight: bold;
+    color: #ACB0B5;
+    position: absolute;
+    top: 35px;
+    right: 60px;
+}
+.progress .progress-value2{
+    font-size: 10px;
+    font-weight: bold;
+    color: #ACB0B5;
+    position: absolute;
+    top: 45px;
+    right: 65px;
+}
+.progress .progress-value3{
+    font-size: 10px;
+    font-weight: bold;
+    color: #ACB0B5;
+    position: absolute;
+    top: 45px;
+    right: 120px;
+}
+.progress .progress-value4{
+    font-size: 10px;
+    font-weight: bold;
+    color: #ACB0B5;
+    position: absolute;
+    top: 45px;
+    right: 50px;
+}
+#p-80 .progress-bar:after {
+    content: "";
+    color: #ACB0B5;
+    background: #f7f7f7;
+    position: absolute;
+    display: block;
+    border-radius: 30%;
+    width: 7px;
+    height: 7px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #22BEEF;
+    right: 70px;
+    top: 29px;
+}
+#p-70 .progress-bar:after {
+    content: "";
+    color: #ACB0B5;
+    background: #ffffff;
+    position: absolute;
+    display: block;
+    border-radius: 30%;
+    width: 7px;
+    height: 7px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #22BEEF;
+    right: 77px;
+    top: 45px;
+}
+#p-90 .progress-bar:after {
+    content: "";
+    color: #ACB0B5;
+    background: #ffffff;
+    position: absolute;
+    display: block;
+    border-radius: 30%;
+    width: 7px;
+    height: 7px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #22BEEF;
+    right: 42px;
+    top: 45px;
+}
+#p-40 .progress-bar:after {
+    content: "";
+    color: #ACB0B5;
+    background: #ffffff;
+    position: absolute;
+    display: block;
+    border-radius: 30%;
+    width: 7px;
+    height: 7px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #22BEEF;
+    right:131px;
+    top: 47px;
+}
+.progress{
+    border: 1px solid #22BEEF;
+}
+.bg-c-blue {
+    background: #22BEEF
+}
+.progress .progress-bar.bg-c-blue:after {
+    border: 3px solid #22BEEF
+}
+
+
+.vr{
+    height: 10px;
+    margin-top: 3px;
+}
+#revenue-horizontal li:first-child{
+    border: none;
+}
+#accounts li{
+    margin-top: 20px; 
+    font-size: 15px;
+}
+#accounts li:first-child{
+    margin-top: 0;
+    font-size: 15px;
+}
+#Team-performence .card-body{
+    margin: 0;
+    padding: 12px;
+}
+#team-performence-list{
+    line-height: 31px;
+}
+#Complaint-analysis .card-body{
+    margin: 0; 
+    padding: 12px;
+}
+#Average-Lead-Conversion .card-body{
+    margin: 0;
+    padding: 13px; 
+}
+#Scheduler .card-body{
+    margin: 0; 
+    padding: 1px;
+}
+#Acc-Monitoring-Triggers .card-body{
+    margin: 0; 
+    padding: 12px;
+}
+#ACC-monitoring-list{
+    border: 1px solid #d6d6d6;
+
+}
+#ACC-monitoring-list li{
+    line-height: 20px;
+}
+#New-Leads .card-body{
+    margin: 0; 
+    padding: 12px;
+}
+#SLA-fullfillment-lists span{
+    color: #858585;
+}
+#revenue-btn{
+    width: 200px;
+    height: 40px;
+}
+#revenue-btn span{
+    margin-left: -50px;
+    color: #a3aab4;
+    font-weight: 500;
+}
+#revenue-btn .dropdown-toggle::after {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    color:#a3aab4 ;
+}
+#revenue-btn-text{
+    text-transform: capitalize;
+    font-size: medium;
+}
+#Lead-btn-group span{
+    margin-left: -160px;
+}
+#Lead-btn-group .dropdown-toggle::after{
+    float: right;
+    margin-top: 10px;
+}
+#cross-selling-btn span{
+    margin-left: -125px;
+}
+#cross-selling-btn .dropdown-toggle::after{
+    float: right;
+    margin-top: 10px;
+}
+#Complaint-analysis-btn span{
+    margin-left: -80px;
+}
+#Complaint-analysis-btn .dropdown-toggle::after{
+    float: right;
+    margin-top: 10px;
+}
+#active-tab{
+    position: relative;
+    border: 1px solid #d6d6d6;
+    border-bottom: none;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+#active-tab span{
+    font-size: 15px;
+    margin-left: 20px;
+}
+#inactive-tab span{
+    font-size: 15px;
+    margin-top: 10px;
+}
+#inactive-tab{
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.active-nav-item{
+    z-index: 1;
+    margin-bottom: -1px;
+    background-color: white;
+}
+.tabs{
+    padding: 0;
+}
+@media only screen and (min-width: 768px) and (max-width:992px){ 
+    #rev-btn{
+        width: 150px;
+        height: 40px;
+        margin-top: 5px;
+        padding: 0;
+        border-radius: 0;
+        box-shadow: none;
+        border: 1px solid #d0d0d0;
+    }
+    #rev-btn p{
+    margin-top: 6px;
+    margin-left: 5px;
+    text-transform: capitalize;
+    color: #9198a5;
+    font-size: 10px;
+    }
+    #top{
+        margin-right: -10px;
+    }
+    #bottom{
+        margin-right: -10px;
+    }
+    .progress-bar{
+        margin: 0;
+        padding: 0;
+        background-color: #22BEEF;
+    }
+    .progress .progress-value1{
+        font-size: 8px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+    .progress .progress-value2{
+        font-size: 10px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 35px;
+        right: 190px;
+    }
+    #p-80 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #22BEEF;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 7px;
+        height: 7px;
+        right: 35px;
+    }
+    .bg-c-blue {
+        background: #22BEEF
+    }
+    .progress .progress-bar.bg-c-blue:after {
+        border: 3px solid #22BEEF
+    }
+    #Navbar-right-elements{
+        float: right;
+    }
+    #nav-first-item{
+        text-align: center;
+        display:inline-block;
+        margin:0 auto;
+    }
+    #nav-second-item{
+        text-align: center;
+        display:inline-block;
+        margin:0 auto;
+    }
+    #nav-third-item{
+        text-align: center;
+        display:inline-block;
+        margin:0 auto;
+    }
+    #revenue-btn{
+        width: 150px;
+        height: 40px;
+    }
+    #revenue-btn-text{
+        text-transform: capitalize;
+        font-size: 12px;
+    }
+    #revenue-btn span{
+        margin-left: -30px;
+    }
+    #revenue-btn .dropdown-toggle::after {
+        float: right;
+        margin-top: 8px;
+    }
+    #revenue-horizontal{
+        line-height: 5px; 
+        float: right; 
+        margin-top: 13px;  
+        list-style-type: none;
+        width: 160px;
+    }
+    #revenue-horizontal li span{
+        font-size: 10px;
+    }
+    #Branch-Revenue h6{
+        font-size: 10px;
+    }
+    #Branch-Revenue i{
+        font-size: 10px;
+    }
+    .total-revenue{
+        font-size: 15px;
+        font-weight: 400;
+        color: rgb(165, 165, 165);
+    }
+    .value{
+        font-size: 20px;
+    }
+    #SLA-Fullfillment h6{
+        font-size: 10px;
+
+        }
+        #SLA-Fullfillment i{
+            font-size: 10px;
+        }
+        .rectangle1{
+            width: 7px;
+            height: 5px;
+            background-color: #A9D86E;
+        }
+        .rectangle2{
+            width: 7px;
+            height: 5px;
+            background-color: #5BC78D;
+            
+        }
+        .rectangle3{
+            width: 7px;
+            height: 5px;
+            background-color: #FE6C5F;
+        }
+        .good{
+            font-size: 7px; 
+            font-weight: 500; 
+            color: #a9d76e;
+        }
+        .Fine{
+            font-size: 7px; 
+            font-weight: 500;
+            color: #5bc78d;
+        }
+        .Bad{
+            font-size: 7px; 
+            font-weight: 500; 
+            color: #ff6d60;
+        }
+        #SLA-fullfillment-lists span{
+            color: #858585;
+            font-size: 10px;
+        }
+        #Lead-analysis h6{
+            font-size: 10px;
+        }
+        #Lead-analysis i{
+            font-size: 10px;
+        }
+        #Lead-analysis-btn-text{
+            text-transform: capitalize;
+            font-size: 12px;
+        }
+        #Lead-btn-group span{
+            margin-left: -70px;
+        }
+        #Lead-btn-group .dropdown-toggle::after{
+            float: right;
+            margin-top: 8px;
+        }
+        #Lead-analysis-horizontal-list span{
+            font-size: 10px;
+        }
+        #Product-sales-analysis h6{
+            font-size: 10px;
+        }
+        #Product-sales-analysis i{
+            font-size: 10px;
+        }
+        #cross-selling-btn span{
+            margin-left: -40px;
+            font-size: 12px;
+        }
+        #cross-selling-btn .dropdown-toggle::after{
+            float: right;
+            margin-top: 8px;
+        }
+        #Cross-selling-horizontal-list span{
+            font-size: 10px;
+        }
+        #accounts{
+            line-height: 8px;
+            padding: 5px;
+        }
+        #accounts li{
+            background-color: #F7F7F7;
+            border: 1px solid rgb(249, 249, 249);
+            margin-bottom: 4px;
+        }
+        #accounts span{
+            font-size: 8px;
+            color: rgb(104, 104, 104);
+        }
+        #product-selling-horizontal-list span{
+            font-size: 10px;
+        }
+        #Team-performence h6{
+            font-size: 10px;
+        }
+        #Team-performence i{
+            font-size: 10px;
+            float: left;
+            margin-top: 5px;
+        }
+        #team-performence-list li{
+            margin-bottom: 0;
+            margin-top: 0;
+            padding: 0;
+        }
+        #team-performence-list{
+            line-height: 29px; 
+            margin-top: 10px;
+        }
+        #team-performence-list i{
+            color: #bbb; 
+            float: left; 
+            margin-top: 13px;
+            border: 1px solid rgb(232, 232, 232);
+            padding: 3px;
+            font-size: 20px;
+        }
+        #team-performence-list span{
+            color: rgb(107, 107, 107); 
+            font-size: 10px;
+        }
+        #Complaint-analysis h6{
+            font-size: 10px;
+            margin-left: -1px;
+        }
+        #Complaint-analysis i{
+            font-size: 10px;
+        }
+        #Complaint-analysis-btn span{
+            margin-left: 20px;
+            font-size: 10px;
+        }
+        #Complaint-analysis-btn .dropdown-toggle::after{
+            float: right;
+            margin-top: 8px;
+            margin-left: 10px;
+        }
+        #Generation-Lead-horizontal-list span{
+            font-size: 10px;
+        }
+        #Average-Lead-Conversion h6{
+            font-size: 10px;
+        }
+        #Average-Lead-Conversion i{
+            font-size: 10px;
+        }
+        #Average-Lead-Conversion-horizontal-list span{
+            font-size: 8px;
+        }
+        #Average-Lead-Conversion-horizontal-list{
+            width: 200px;
+        }
+        #card1{
+            background-color: #7AD3FD; 
+            border-radius: 0px;
+            height: 120px;
+        }
+        #card1 i{
+            color: white;
+        }
+        #card1 span{
+            font-weight: 500; 
+            color: rgb(88, 88, 88); 
+            font-size: 10px;
+        }
+        #card1 p{
+            font-weight: 600; 
+            font-size: 10px;
+            color: black;
+        }
+        #card2{
+            background-color: #F1C63B;
+            border-radius: 0px;
+            height: 120px;
+        }
+        #card2 i{
+            color: white;
+        }
+        #card2 span{
+            font-weight: 500; 
+            color: rgb(88, 88, 88); 
+            font-size: 10px;
+        }
+        #card2 p{
+            font-weight: 600; 
+            font-size: 10px;
+            color: black;
+        }
+        #card3{
+            background-color: #5BC78D;
+            border-radius: 0px;
+            height: 120px;
+        }
+        #card3 span{
+            font-weight: 500; 
+            color: rgb(88, 88, 88); 
+            font-size: 10px;
+        }
+        #card3 i{
+            color: white;
+        }
+        #card3 p{
+            font-weight: 600; 
+            font-size: 10px;
+            color: black;
+        }
+        #Scheduler{
+            border-radius: 0px;
+        }
+        #Scheduler-time{
+            background-color: #F7F7F7; 
+            border-top: 1px solid rgb(185, 185, 185);
+            border-bottom: 1px solid rgb(185, 185, 185);
+            height: 30px;
+        }
+        #Scheduler-time i{
+            font-size: 10px;
+            color: #7D838B;
+        }
+        #Scheduler-time span{
+            font-size: 10px;
+            color: #7D838B;
+            margin-top: -10px;
+        }
+        #Scheduler h6{
+            font-size: 10px;
+        }
+        #Scheduler i{
+            font-size: 10px;
+            margin-top: -10px;
+        }
+        #left-icon{
+            margin-top: -10px;
+        }
+        .time{
+            font-size: 6px; 
+            color: #22BEEF; 
+            font-weight: 600; 
+        }
+        .tag{
+            font-size: 6px; 
+            color: rgb(202, 202, 202);
+        }
+        .name{
+            font-size: 6px; 
+            font-weight: 500; 
+            color: #7C848A;
+        }
+        .sell{
+            font-size: 6px; 
+            color: #C6C6C6;
+        }
+        #Acc-Monitoring-Triggers h6{
+            font-size: 10px;
+        }
+        #Acc-Monitoring-Triggers i{
+            font-size: 10px;
+        }
+        .docx{
+            font-size: 8px;
+            color: rgb(137, 137, 137);
+            margin-left: 3px;
+        }
+        .customer-name{
+            font-size: 8px; 
+            font-weight: 500;
+            margin-left: 3px;
+        }
+        .date{
+            float: right;
+            color: #ACB0B5;
+            font-size: 8px;
+            margin-right: 3px;
+            margin-top: 2px;
+        }
+        .times{
+            font-size: 8px;
+            font-weight: 500; 
+            color: #33cdff;
+            margin-top: 4px;
+            float: right;
+            margin-right: 3px;
+        }
+        #ACC-monitoring-list li{
+            margin: 0;
+            padding: 0;
+        }
+        #ACC-monitoring-list{
+            border: 1px solid #efefef;
+        }
+        #active-tab{
+            border: 1px solid #efefef;
+            border-bottom: none;
+            padding-left: 2px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin-top: -1px;
+        }
+        #inactive-tab{
+            font-size: 10px;
+            padding-left: 2px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+        }
+        .active-nav-item{
+            z-index: 1;
+            margin-bottom: -10px;
+            background-color: white;
+        }
+        #active-tab span{
+            font-size: 10px;
+            margin-left: 20px;
+        }
+        #New-Leads h6{
+            font-size: 10px;
+        }
+        #New-Leads i{
+            font-size: 10px;
+        }
+        #News-lead-list li{
+            margin: 0;
+            padding: 0;
+            margin-bottom: 10px;
+        }
+        .new-leads-name{
+            font-weight: 600; 
+            color: #FBBD49; 
+            font-size: 12px;
+            margin-left: 3px;
+        }
+        .row-divider{
+            width: 100px;
+        }
+        .lead-tag{
+            font-weight: 600; 
+            font-size: 10px;
+            color: rgb(101, 101, 101);
+            margin-left: 3px;
+        }
+        .home-lone{
+            font-size: 5px;
+            margin-top: 5px;
+            color: rgb(101, 101, 101);
+            margin-left: 3px;
+        }
+        .lead-time{
+            color: #33cdff; 
+            font-weight: 500; 
+            font-size: 10px;
+            margin-top: 5px;
+            margin-right: 3px;
+            float: right;
+        }
+        .criticality{
+            color: rgb(131, 131, 131); 
+            font-size: 8px;
+            margin-top: 5px;
+            float: right;
+            font-weight: 500;
+            margin-right: 3px;
+        }
+        #chartContainer2{
+            margin-top: -40px;
+            margin-bottom: -40px;
+        }
+        #revenue-progress-bar{
+            height: 20px; 
+            width: 95%;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        #SLA-fullfillment-lists li{
+            line-height: 8px;
+            font-size: 10px; 
+            font-weight: 500;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        #chartContainer3{
+            margin-top: -30px;
+            margin-bottom: -30px;
+        }
+    
+
+}
+@media only screen and (min-width: 992px) and (max-width:1200px){
+    .progress-bar{
+        margin: 0;
+        padding: 0;
+        background-color: #22BEEF;
+    }
+    .progress .progress-value1{
+        font-size: 10px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top:35px;
+        right: 35px;
+    }
+    .progress .progress-value2{
+        font-size: 10px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 45px;
+        right: 50px;
+    }
+    .progress .progress-value3{
+        font-size: 10px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 45px;
+        right: 90px;
+    }
+    .progress .progress-value4{
+        font-size: 10px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 45px;
+        right: 20px;
+    }
+    #p-40 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #ffffff;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 7px;
+        height: 7px;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 8px solid #22BEEF;
+        right: 87px;
+        top: 48px;
+    }
+    #p-80 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #f7f7f7;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 7px;
+        height: 7px;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 8px solid #22BEEF;
+        right: 54px;
+        top: 33px;
+    }
+    #p-70 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #ffffff;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 7px;
+        height: 7px;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 8px solid #22BEEF;
+        right: 55px;
+        top: 45px;
+    }
+    #p-90 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #ffffff;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 7px;
+        height: 7px;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 8px solid #22BEEF;
+        right: 36px;
+        top: 46px;
+    }
+    .bg-c-blue {
+        background: #22BEEF
+    }
+    .progress .progress-bar.bg-c-blue:after {
+        border: 3px solid #22BEEF
+    }
+    #Lead-btn-group span{
+        margin-left: -120px;
+    }
+    #Complaint-analysis-btn span{
+        margin-left: -30px;
+    }
+    #cross-selling-btn span{
+        margin-left: -70px;
+    }
+    #accounts{
+        line-height: 23px;
+        padding: 5px;
+    }
+    #accounts li{
+        background-color: #F7F7F7;
+        border: 1px solid rgb(249, 249, 249);
+        margin-bottom: 6px;
+    }
+    #team-performence-list{
+        line-height: 33px;
+        margin-top: 2px; 
+    }
+    #ACC-monitoring-list li{
+        margin: 0;
+        padding: 0;
+    }
+    #ACC-monitoring-list li{
+        line-height: 26px;
+    }
+    .docx{
+        font-size: 12px;
+        color: rgb(137, 137, 137);
+        margin-left: 4px;
+    }
+    .customer-name{
+        font-size: 12px; 
+        font-weight: 500;
+        margin-left: 4px;
+    }
+    .date{
+        float: right;
+        color: #ACB0B5;
+        font-size: 12px;
+        margin-right: 3px;
+        margin-top: 2px;
+    }
+    .times{
+        font-size: 12px;
+        font-weight: 500; 
+        color: #33cdff;
+        margin-top: 4px;
+        float: right;
+        margin-right: 3px;
+    }
+    #News-lead-list li{
+        margin: 0;
+        padding: 0;
+    }
+    #News-lead-list li{
+        margin-bottom: 30px;
+    }
+    .new-leads-name{
+        font-weight: 600; 
+        color: #FBBD49; 
+        font-size: 20px;
+        margin-left: 4px;
+    }
+    .lead-tag{
+        font-weight: 600; 
+        font-size: 12px;
+        color: rgb(101, 101, 101);
+        margin-left: 3px;
+    }
+    .home-lone{
+        font-size: 12px;
+        margin-top: 5px;
+        color: rgb(101, 101, 101);
+        margin-left: 3px;
+    }
+    .lead-time{
+        color: #33cdff; 
+        font-weight: 500; 
+        font-size: 12px;
+        margin-top: 5px;
+        margin-right: 3px;
+        float: right;
+    }
+    .criticality{
+        color: rgb(131, 131, 131); 
+        font-size: 12px;
+        margin-top: 5px;
+        float: right;
+        font-weight: 500;
+        margin-right: 3px;
+    }
+    .row-divider{
+        width: 160px;
+    }
+    #News-lead-list li{
+        border: 1px solid rgb(190, 190, 190);
+    }
+    #ACC-monitoring-list{
+            border: 1px solid rgb(190, 190, 190);
+        }
+        #active-tab{
+            border: 1px solid rgb(190, 190, 190);
+            border-bottom: none;
+            padding-left: 2px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin-top: -1px;
+        }
+        #inactive-tab{
+            padding-left: 1px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+        }
+        #inactive-tab span{
+            font-size: 10px;
+            margin-top: 10px;
+        }
+        .active-nav-item{
+            z-index: 1;
+            margin-bottom: -10px;
+            background-color: white;
+        }
+        #active-tab span{
+            font-size: 10px;
+            margin-left: 20px;
+        }
+        .time{
+            font-size: 10px; 
+            color: #22BEEF; 
+            font-weight: 600; 
+        }
+        .tag{
+            font-size: 11px; 
+            color: rgb(202, 202, 202);
+        }
+        .name{
+            font-size: 13px; 
+            font-weight: 500; 
+            color: #7C848A;
+        }
+        .sell{
+            font-size: 10px; 
+            color: #C6C6C6;
+        }
+        #chartContainer2{
+            margin-bottom: 25px;
+        }
+        #Lead-analysis-horizontal-list li{
+            padding: 4px;
+        }
+        #Lead-analysis-horizontal-list li span{
+            font-size: 12px;
+        }
+        #product-selling-horizontal-list li span{
+            font-size: 10px;
+        }
+    
+        
+}
+@media only screen and (min-width: 576px) and (max-width:768px){
+    #Navbar-right-elements{
+        float: right;
+    }
+    #nav-first-item{
+        text-align: left;
+        display:inline-block;
+        margin:0 auto;
+    }
+    #nav-second-item{
+        text-align: left;
+        display:inline-block;
+        margin:0 auto;
+    }
+    #nav-third-item{
+        text-align: left;
+        display:inline-block;
+        margin:0 auto;
+    }
+    #rev-btn{
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        padding: 0;
+        border-radius: 0;
+        box-shadow: none;
+        border: 1px solid #d0d0d0;
+    }
+    #rev-btn p{
+    margin-top: 6px;
+    margin-left: 15px;
+    text-transform: capitalize;
+    color: #9198a5;
+    }
+    
+    #rev-btn span{
+        color: #9198a5;
+    }
+    #top{
+        margin-right: -40px;
+    }
+    #bottom{
+        margin-right: -40px;
+    }
+    #Branch-Revenue i{
+       display: none;
+    }
+    #Branch-Revenue h6{
+        font-size: 15px;
+        margin-top: -5px;
+    }
+    #SLA-Fullfillment i{
+        float: right;
+        margin-top: 8px;
+    }
+    .rectangle1{
+        width: 15px;
+        height: 7px;
+        background-color: #A9D86E;
+    }
+    .rectangle2{
+        width: 15px;
+        height: 7px;
+        background-color: #5BC78D;
+        
+    }
+    .rectangle3{
+        width: 15px;
+        height: 7px;
+        background-color: #FE6C5F;
+    }
+    .good{
+        font-size: 15px; 
+        font-weight: 500; 
+        color: #a9d76e;
+    }
+    .Fine{
+        font-size: 15px; 
+        font-weight: 500;
+        color: #5bc78d;
+    }
+    .Bad{
+        font-size: 15px;
+        font-weight: 500; 
+        color: #ff6d60;
+    }
+    #SLA-fullfillment-lists{
+        margin-top: 10px;
+    }
+    #SLA-fullfillment-lists span{
+        font-size: 15px;
+    }
+    #SLA-fullfillment-lists .rectangle1{
+        float: right;
+        margin-top: -10px;
+    }
+    #SLA-fullfillment-lists .rectangle2{
+        float: right;
+        margin-top: -10px;
+    }
+    #SLA-fullfillment-lists .rectangle3{
+        float: right;
+        margin-top: -10px;
+    }
+    #Lead-analysis i{
+        float: right;
+    }
+    #Lead-analysis-horizontal-list li:last-child{
+        margin-left: -20px;
+    }
+    #chartContainer2{
+        margin-right: -20px;
+    }
+    #Product-sales-analysis i{
+        float: right;
+    }
+    #product-selling-horizontal-list li:last-child{
+        margin-left: -20px;
+    }
+    #Complaint-analysis i{
+        float: right;
+        margin-top: 5px;
+    }
+    #right-icon{
+        float: right;
+        margin-top: -10px;
+    }
+    .date{
+        float: left;
+    }
+    .criticality{
+        float: left;
+    }
+    #Scheduler-time i2{
+        float: right;
+    }
+    .progress-bar{
+        margin: 0;
+        padding: 0;
+        background-color: #22BEEF;
+    }
+    .progress .progress-value1{
+        font-size: 10px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 35px;
+        right: 100px;
+    }
+    #p-80 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #f7f7f7;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 5px;
+        height: 5px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #22BEEF;
+        right: 105px;
+    }
+    .progress .progress-value2{
+        font-size: 10px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 45px;
+        right: 100px;
+    }
+    #p-70 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #ffffff;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 5px;
+        height: 5px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #22BEEF;
+        right: 110px;
+    }
+    .progress .progress-value3{
+        font-size: 10px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 45px;
+        right: 185px;
+    }
+    #p-40 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #ffffff;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 5px;
+        height: 5px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #22BEEF;
+        right: 195px;
+    }
+    .progress .progress-value4{
+        font-size: 10px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 45px;
+        right: 40px;
+    }
+    #p-90 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #ffffff;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 5px;
+        height: 5px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #22BEEF;
+        right: 50px;
+    }
+    #team-icon{
+        display: none;
+    }
+    #team-performence-list i{
+        float: left;
+    }
+    #right-icon{
+        display: none;
+    }
+    #left-icon{
+        display: none;
+    }
+    #Acc-Monitoring-Triggers i{
+        display: none;
+    }
+    #New-Leads i{
+        display: none;
+    }
+    #avg-icon{
+        float: right;
+    }
+    #Complaint-analysis i{
+        display: none;
+    }
+    #Product-sales-analysis i{
+        display: none;
+    }
+    #Lead-analysis i{
+        display: none;
+    }
+    #SLA-Fullfillment i{
+        display: none;
+    }
+    #Scheduler-time i2{
+        display: none;
+    }
+    #Scheduler-time i1{
+        display: none;
+    }
+
+
+
+}
+@media only screen and (min-width: 320px) and (max-width:576px){
+    #rev-btn{
+        width: 430px;
+    }
+    #top{
+        margin-right: -270px;
+    }
+    #bottom{
+        margin-right: -270px;
+    }
+    .progress-bar{
+        margin: 0;
+        padding: 0;
+        background-color: #22BEEF;
+    }
+    .progress .progress-value1{
+        font-size: 10px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 35px;
+        right: 90px;
+    }
+    .progress .progress-value2{
+        font-size: 10px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 47px;
+        right: 260px;
+    }
+    .progress .progress-value3{
+        font-size: 10px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 53px;
+        right: 323px;
+    }
+    .progress .progress-value4{
+        font-size: 10px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 47px;
+        right: 220px;
+    }
+    #p-80 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #f7f7f7;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 7px;
+        height: 7px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #22BEEF;
+        right: 95px;
+    }
+    #p-70 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #ffffff;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 7px;
+        height: 7px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #22BEEF;
+        right: 265px;
+        top: 47px;
+    }
+    #p-40 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #ffffff;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 7px;
+        height: 7px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #22BEEF;
+        right: 330px;
+        top: 50px;
+    }
+    #p-90 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #ffffff;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 7px;
+        height: 7px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #22BEEF;
+        right: 227px;
+        top: 47px;
+    }
+    #team-performence-list span{
+        float: right;
+        margin-top: -20px;
+    }
+    #nav-first-item{
+        text-align: center;
+        display:inline-block;
+        margin:0 auto;
+    }
+    #nav-first-item i{
+        font-size: 17px;
+    }
+    #nav-first-item span{
+        font-size: 17px;
+    }
+    #nav-second-item i{
+        font-size: 17px;
+    }
+    #nav-second-item span{
+        font-size: 17px;
+    }
+    #nav-third-item i{
+        font-size: 17px;
+    }
+    #nav-third-item span{
+        font-size: 17px;
+    }
+    #nav-second-item{
+        text-align: center;
+        display:inline-block;
+        margin:0 auto;
+    }
+    #nav-third-item{
+        text-align: center;
+        display:inline-block;
+        margin:0 auto;
+    }
+    #Navbar-right-elements{
+        margin: 0;
+        padding: 0;
+    }
+    #Branch-Revenue h6{
+        font-size: 17px;
+    }
+    #Branch-Revenue i{
+        display: none;
+    }
+    #revenue-btn{
+        width: 100%;
+        margin-top: 10px;
+    }
+    #revenue-btn span{
+        margin-left: -120px;
+    }
+    #revenue-horizontal{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .total-revenue{
+        margin-left: 70px;
+    }
+    #SLA-Fullfillment h6{
+        font-size: 17px;
+    }
+    #SLA-Fullfillment i{
+        display: none;
+    }
+    #SLA1{
+        text-align: center;
+        display:inline-block;
+        margin:0 ;
+    }
+    #SLA2{
+        text-align: center;
+        display:inline-block;
+        margin:0 ;
+    }
+    #SLA3{
+        text-align: center;
+        display:inline-block;
+        margin:0 ;
+    }
+    .rectangle1{
+        width: 25px;
+        height: 15px;
+        background-color: #A9D86E;
+    }
+    .rectangle2{
+        width: 25px;
+        height: 15px;
+        margin-left: -10px;
+        background-color: #5BC78D;
+        
+    }
+    .rectangle3{
+        width: 25px;
+        height: 15px;
+        margin-left: -15px;
+        background-color: #FE6C5F;
+    }
+    .good{
+        font-size: 20px; 
+        font-weight: 500; 
+        margin-left: 15px;
+        color: #a9d76e;
+    }
+    .Fine{
+        font-size: 20px; 
+        font-weight: 500;
+        margin-left: 15px;
+        color: #5bc78d;
+    }
+    .Bad{
+        font-size: 20px;
+        font-weight: 500; 
+        margin-left: 15px;
+        color: #ff6d60;
+    }
+    #SLA-fullfillment-lists li{
+        line-height: 20px;
+    }
+    #SLA-fullfillment-lists span{
+        font-size: 17px;
+    }
+    #SLA-fullfillment-lists .rectangle1{
+        float: right;
+        margin-top: -10px;
+    }
+    #SLA-fullfillment-lists .rectangle2{
+        float: right;
+        margin-top: -10px;
+    }
+    #SLA-fullfillment-lists .rectangle3{
+        float: right;
+        margin-top: -10px;
+    }
+    #Lead-analysis h6{
+        font-size: 17px;
+    }
+    #Lead-analysis i{
+        display: none;
+    }
+    #Lead-btn-group span{
+        margin-left: -190px;
+    }
+    #Lead-analysis-horizontal-list{
+        height: 30px;
+        margin-top: 10px;
+    }
+    #Lead-analysis-horizontal-list span{
+        font-size: 17px;
+    }
+    #Lead-analysis-horizontal-list li:first-child{
+        margin-top: -5px;
+    }
+    #Lead-analysis-horizontal-list li:last-child{
+        margin-top: -5px;
+    }
+    #Product-sales-analysis h6{
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    #Product-sales-analysis i{
+        display: none;
+    }
+    #cross-selling-btn span{
+        margin-left: -140px;
+    }
+    #product-selling-horizontal-list{
+        height: 40px;
+    }
+    #product-selling-horizontal-list span{
+        font-size: 17px;
+    }
+    #Team-performence h6{
+        font-size: 17px;
+    }
+    #team-icon{
+        display: none;
+    }
+    #team-performence-list i{
+        float: left;
+    }
+    #team-performence-list .progress{
+        width: 200px;
+        float: left;
+    }
+    team-performence-list li span{
+        float: right;
+        margin-top: -10px;
+    }
+    #team-performence-list i{
+        float: left;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    #Complaint-analysis h6{
+        font-size: 17px;
+    }
+    #Complaint-analysis i{
+       display: none;
+    }
+    #Complaint-analysis-btn span{
+        margin-left: -120px;
+    }
+    #Generation-Lead-horizontal-list span{
+        font-size: 17px;
+    }
+    #Average-Lead-Conversion h6{
+        font-size: 17px;
+        margin-bottom: -20px;
+    }
+    #avg-icon i{
+        float: right;
+    }
+    #Average-Lead-Conversion-horizontal-list{
+        width: 100%;
+    }
+    #Scheduler h6{
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    #Scheduler i{
+        display: none;
+    }
+    #left-icon{
+        color: rgb(0, 0, 0);
+        margin-bottom: 10px;
+    }
+    #right-icon{
+        color: rgb(0, 0, 0);
+        margin-bottom: 10px;
+    }
+     #Scheduler-time i1{
+        float: left;
+        margin-top: 10px;
+    }
+    #Scheduler-time i2{
+        float: right;
+        margin-top: 10px;
+    }
+    #Scheduler-time span{
+        font-size: 17px;
+    }
+    #list1-icon2{
+        margin-bottom: 10px;
+    }
+    #list2-icon2{
+        margin-bottom: 10px;
+
+    }
+    #list3-icon2{
+        margin-bottom: 10px;
+    }
+    #Acc-Monitoring-Triggers h6{
+        font-size: 17px;
+    }
+    #Acc-Monitoring-Triggers i{
+        display: none;
+    }
+    .docx{
+        font-size: 17px;
+    }
+    .customer-name{
+        font-size: 17px;
+    }
+    .date{
+        font-size: 17px;
+        margin-bottom: -20px;
+        float: left;
+    }
+    .times{
+        font-size: 15px;
+        margin-right: -10px;
+        margin-top: -2px;
+    }
+    #New-Leads h6{
+        font-size: 17px;
+    }
+    #New-Leads i{
+       display: none;
+    }
+    .new-leads-name{
+        font-size: 17px;
+    }
+    .criticality{
+        font-size: 15px;
+        float: left;
+    }
+    .lead-time{
+        font-size: 17px;
+    }
+    
+
+}
+@media only screen and (min-width: 1200px) and (max-width:1400px){
+    .progress-bar{
+        margin: 0;
+        padding: 0;
+        background-color: #22BEEF;
+    }
+    .progress .progress-value1{
+        font-size: 10px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 35px;
+        right: 45px;
+    }
+    .progress .progress-value2{
+        font-size: 10px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 35px;
+        right: 190px;
+    }
+    #p-80 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #f7f7f7;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 7px;
+        height: 7px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #22BEEF;
+        right: 60px;
+    }
+    .progress .progress-value2{
+        font-size: 6px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 45px;
+        right: 60px;
+    }
+    #p-70 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #ffffff;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 7px;
+        height: 7px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #22BEEF;
+        right: 65px;
+    }
+    .progress .progress-value3{
+        font-size: 6px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 45px;
+        right: 100px;
+    }
+    #p-40 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #ffffff;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 7px;
+        height: 7px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #22BEEF;
+        right: 105px;
+    }
+    .progress .progress-value4{
+        font-size: 6px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 45px;
+        right: 40px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:992px){
+    #SLA-fullfillment-lists span{
+        font-size: 8px;
+    }
+    .good{
+        font-size: 8px; 
+        font-weight: 500; 
+        color: #a9d76e;
+    }
+    .Fine{
+        font-size:8px; 
+        font-weight: 500;
+        color: #5bc78d;
+    }
+    .Bad{
+        font-size: 8px; 
+        font-weight: 500; 
+        color: #ff6d60;
+    }
+    .rectangle1{
+        width: 15px;
+        height: 5px;
+        margin-left: -15px;
+        background-color: #A9D86E;
+    }
+    .rectangle2{
+        width: 15px;
+        height: 5px;
+        margin-left: -15px;
+        background-color: #5BC78D;
+        
+    }
+    .rectangle3{
+        width: 15px;
+        height: 5px;
+        margin-left: -15px;
+        background-color: #FE6C5F;
+    }
+    .progress-bar{
+        margin: 0;
+        padding: 0;
+        background-color: #22BEEF;
+    }
+    .progress .progress-value1{
+        font-size: 6px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 30px;
+        right: 35px;
+    }
+    .progress .progress-value2{
+        font-size: 6px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 35px;
+        right: 30px;
+    }
+    #p-80 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #f7f7f7;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 7px;
+        height: 7px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #22BEEF;
+        right: 40px;
+        top: 20px;
+    }
+    #p-70 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #ffffff;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 7px;
+        height: 7px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #22BEEF;
+        right: 30px;
+        top: 35px;
+    }
+    #p-40 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #ffffff;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 7px;
+        height: 7px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #22BEEF;
+        right: 60px;
+        top: 34px;
+    }
+    .progress .progress-value3{
+        font-size: 6px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 35px;
+        right: 60px;
+    }
+    #p-90 .progress-bar:after {
+        content: "";
+        color: #ACB0B5;
+        background: #ffffff;
+        position: absolute;
+        display: block;
+        border-radius: 30%;
+        width: 7px;
+        height: 7px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #22BEEF;
+        right: 10px;
+        top: 34px;
+    }
+    .progress .progress-value4{
+        font-size: 6px;
+        font-weight: bold;
+        color: #ACB0B5;
+        position: absolute;
+        top: 35px;
+        right: 2px;
+    }
+}
